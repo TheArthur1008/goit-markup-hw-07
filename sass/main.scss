@@ -1,3 +1,6 @@
+@import './utils/variables';
+@import './utils/_visual-hidden';
+
 @import './base/common';
 
 @import './components/section';
@@ -15,8 +18,7 @@
 @import './layout/team';
 @import './layout/clients';
 
-@import './utils/_visual-hidden';
-@import './utils/variables';
+
 
 
 

@@ -1,19 +1,10 @@
-.work {
-    display: flex;
-    gap: 30px;
-}
-
-.work-padding {
+.section-work {
     padding-top: 47px;
 }
 
-.section-title {
-    margin-top: 0;
-    margin-bottom: 50px;
-
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+.work {
+    display: flex;
+    gap: 30px;
 }
 
 .work-action {
@@ -31,7 +22,7 @@
     }
 }
 
-.work-text {
+.work-action__text {
     position: absolute;
     width: 205px;
     height: 16px;

@@ -1,19 +1,19 @@
-.peculiarities {
+.section-peculiarities {
+    padding-bottom: 47px;
+}
+
+.section-peculiarities__list{
     display: flex;
     gap: 30px;
 }
 
-.peculiarit {
-    padding-bottom: 47px;
-}
-
-.peculiarities .item {
+.section-peculiarities__item{
     width: calc((100% - 90px) / 4);
     justify-content: center;
     align-items: center;
 }
 
-.item-icon {
+.section-peculiarities__icon {
     display: flex;
     height: 120px;
     align-items: center;
@@ -23,7 +23,7 @@
     background-color: var(--background-grey-color);
 }
 
-.peculiarities-title {
+.section-peculiarities__title{
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -34,7 +34,7 @@
     text-transform: uppercase;
 }
 
-.peculiarities-text {
+.section-peculiarities__text {
     margin-top: 0;
     margin-bottom: 0;
 

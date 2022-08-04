@@ -1,5 +1,10 @@
-.header {
+.page-header {
     padding: 24px 0px;
+}
+
+.page-header__container {
+    display: flex;
+    align-items: center;
 }
 
 .main-nav {
@@ -7,9 +12,9 @@
     align-items: center;
 }
 
-.auth-nav {
-    display: flex;
-    align-items: center;
+.page-header__logo {
+    margin-right: 93px;
+    color: var(--primary-text-color);
 }
 
 .site-nav {
@@ -17,7 +22,7 @@
     column-gap: 50px;
 }
 
-.site-nav .link {
+.site-nave__link {
     display: block;
     position: relative;
 
@@ -35,7 +40,7 @@
     }
 }
 
-.link.curent {
+.site-nave__link-active {
     color: var(--accent-color);
 
     &::after {
@@ -58,11 +63,11 @@
     margin-left: auto;
 }
 
-.site-contacts .item:not(:last-child) {
+.site-contacts__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.site-contacts .link {
+.site-contacts__link {
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -80,7 +85,7 @@
     }
 }
 
-.link-icon {
+.site-contacts__icon {
     margin-right: 10px;
     vertical-align: middle;
 
